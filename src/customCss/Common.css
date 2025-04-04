@@ -1,0 +1,4 @@
+.common_container {
+  display: flex;
+  justify-content: end;
+}

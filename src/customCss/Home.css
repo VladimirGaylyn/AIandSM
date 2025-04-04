@@ -1,0 +1,132 @@
+.we_doSec {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-top: 120px;
+}
+.we_doItem {
+  width: 31%;
+  margin: 20px 1%;
+  position: relative;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.we_doInner {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  /* background: #fff; */
+  padding: 20px;
+  cursor: pointer;
+  position: relative;
+  z-index: 9;
+  /* box-shadow: 7px 7px 10px -3px red; */
+}
+.weDo_hover {
+  height: 300px;
+  width: 300px;
+  position: absolute;
+  z-index: 4;
+  border-radius: 50%;
+  box-shadow: 7px 7px 8px -2px #1c8fc7;
+  animation: weHover 8s linear infinite;
+}
+.we_doItem img {
+  width: 128px;
+  height: 128px;
+  /* -webkit-filter: drop-shadow(7px 7px 7px #222);
+  filter: drop-shadow(7px 7px 7px #222);
+  animation: weDo 3s infinite linear; */
+}
+.we_doItem h3 {
+  color: var(--dark);
+  margin-top: 20px;
+  font-size: 22px;
+  font-weight: 500;
+}
+.we_doSecSearch {
+  justify-content: center;
+  margin-top: 0px;
+}
+.exp_tx {
+  margin-top: 35px;
+  margin-bottom: 25px;
+  text-align: center;
+  font-size: 24px;
+}
+@media screen and (min-width: 845px) and (max-width: 992px) {
+  .we_doInner {
+    height: 250px;
+    width: 250px;
+  }
+  .weDo_hover {
+    height: 250px;
+    width: 250px;
+  }
+  .we_doItem h3 {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 767px) and (max-width: 844px) {
+  .we_doInner {
+    height: 220px;
+    width: 220px;
+  }
+  .weDo_hover {
+    height: 220px;
+    width: 220px;
+  }
+  .we_doItem h3 {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .exp_tx {
+    font-size: 18px;
+  }
+  .we_doSec {
+    flex-direction: column;
+  }
+  .we_doItem {
+    width: 98%;
+    margin: 20px 1%;
+  }
+  .we_doInner {
+    height: 220px;
+    width: 220px;
+  }
+  .weDo_hover {
+    height: 220px;
+    width: 220px;
+  }
+  .we_doItem h3 {
+    font-size: 16px;
+  }
+}
+@keyframes weDo {
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+  25% {
+    transform: rotate(7deg) scale(1.05);
+  }
+  50% {
+    transform: rotate(0deg) scale(1);
+  }
+  75% {
+    transform: rotate(-7deg) scale(1.05);
+  }
+  100% {
+    transform: rotate(0deg) scale(1);
+  }
+}
+@keyframes weHover {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

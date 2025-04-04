@@ -1,0 +1,87 @@
+.switcherBar {
+  text-align: right;
+  padding: 15px 20px;
+}
+.switcherBar i {
+  color: var(--dark);
+  font-size: 22px;
+  cursor: pointer;
+}
+.language_popupOuter {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 999;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.language_popupInner {
+  max-width: 500px;
+  background: #fff;
+  margin: auto;
+  width: 100%;
+  padding: 30px;
+  border-radius: 10px;
+  position: relative;
+}
+.lang_button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* max-width: 180px; */
+  margin: auto;
+  background: #fff;
+  padding: 5px 15px;
+  border-radius: 50px;
+  width: 50%;
+  margin: 0px 15px;
+  border: 2px solid #333333;
+  cursor: pointer;
+}
+.lang_button.active {
+  background: #000000;
+}
+.lang_button.active p {
+  color: #fff;
+}
+
+.lang_button img {
+  width: 32px;
+  height: 32px;
+}
+.lang_button p {
+  color: #000;
+  margin-right: 15px;
+}
+.lanSec {
+  background: #dfdfdf;
+  border-radius: 5px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.language_popupInner i.fa-times {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: rgb(194, 58, 34);
+  cursor: pointer;
+  font-size: 18px;
+}
+@media screen and (max-width: 767px) {
+  .lang_button {
+    width: 100%;
+  }
+  .lang_button:not(:last-child) {
+    margin-bottom: 15px;
+  }
+  .lanSec {
+    flex-direction: column;
+  }
+}

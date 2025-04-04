@@ -1,0 +1,20 @@
+{
+  "homeSub": "Answers for Environmental Justice",
+  "finalizePitchDeck": "Finalize Pitch Deck",
+  "readTheLeanStartup": "Read 'The Lean Startup'",
+  "fixLandingPage": "Fix Landing Page",
+  "replyToRichard": "Reply to Richard",
+  "results": "Results",
+  "generate": "Generate",
+  "docketPromptPlaceholder": "Please paste the docket number and description of the matter you are referencing (click to the right to go and copy from the CT Siting Council website)",
+  "promptPlaceholder": "Please type in your concerns about the pending matter in the search box above",
+  "ejServiceOne": "EJ Advisor AI Tool",
+  "ejServiceTwo": "Agency Guidance and Power Mapping",
+  "ejServiceThree": "Climate Data and Future Projections",
+  "ejSearchOne": "Sample comment letters",
+  "ejSearchTwo": "How do I start my own non-profit organization?",
+  "searchText": "Take a look at some sample letters",
+  "climateHead": "Enter any address to receive household level climate data and risk ratings",
+  "search": "Search",
+  "errorM": "Field should not be Empty!!"
+}

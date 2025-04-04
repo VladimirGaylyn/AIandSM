@@ -1,0 +1,20 @@
+{
+  "homeSub": "Respuestas para la justicia ambiental",
+  "finalizePitchDeck": "Finalizar Presentación",
+  "readTheLeanStartup": "Leer 'El Método Lean'",
+  "fixLandingPage": "Arreglar Página de Aterrizaje",
+  "replyToRichard": "Responder a Richard",
+  "results": "Resultados",
+  "generate": "Generar",
+  "docketPromptPlaceholder": "Por favor, pegue el número de expediente y la descripción del asunto al que hace referencia (se puede copiar directamente del sitio web del Consejo de Emplazamiento de CT)",
+  "promptPlaceholder": "Por favor, escriba sus preocupaciones sobre el asunto pendiente en el cuadro de búsqueda de arriba",
+  "ejServiceOne": "Herramienta de inteligencia artificial de EJ Advisor",
+  "ejServiceTwo": "Orientación de la agencia y mapeo de poder",
+  "ejServiceThree": "Datos climáticos y proyecciones futuras",
+  "ejSearchOne": "Ejemplos de cartas de comentarios",
+  "ejSearchTwo": "¿Cómo inicio mi propia organización sin fines de lucro?",
+  "searchText": "Ejemplos de indicaciones que puede utilizar o modificar:",
+  "climateHead": "Ingrese cualquier dirección para recibir datos climáticos y calificaciones de riesgo a nivel de hogar",
+  "search": "Buscar",
+  "errorM": "¡¡El campo no debe estar vacío!!"
+}
